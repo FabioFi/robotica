@@ -1,0 +1,1 @@
+/tmp/quickstart_ws/devel/.private/pkg_b/share/pkg_b/cmake/pkg_bConfig-version.cmake

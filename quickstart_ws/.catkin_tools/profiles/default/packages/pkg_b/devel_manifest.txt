@@ -1,0 +1,5 @@
+pkg_b
+/tmp/quickstart_ws/devel/.private/pkg_b/cmake.lock /tmp/quickstart_ws/devel/./cmake.lock
+/tmp/quickstart_ws/devel/.private/pkg_b/lib/pkgconfig/pkg_b.pc /tmp/quickstart_ws/devel/lib/pkgconfig/pkg_b.pc
+/tmp/quickstart_ws/devel/.private/pkg_b/share/pkg_b/cmake/pkg_bConfig.cmake /tmp/quickstart_ws/devel/share/pkg_b/cmake/pkg_bConfig.cmake
+/tmp/quickstart_ws/devel/.private/pkg_b/share/pkg_b/cmake/pkg_bConfig-version.cmake /tmp/quickstart_ws/devel/share/pkg_b/cmake/pkg_bConfig-version.cmake

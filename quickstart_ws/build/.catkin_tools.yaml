@@ -1,0 +1,6 @@
+devel_space: /tmp/quickstart_ws/devel
+install: false
+install_space: /tmp/quickstart_ws/install
+profile: default
+source_space: /tmp/quickstart_ws/src
+workspace: /tmp/quickstart_ws

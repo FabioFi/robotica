@@ -1,0 +1,8 @@
+prefix=/tmp/quickstart_ws/install
+
+Name: pkg_c
+Description: Description of pkg_c
+Version: 0.0.0
+Cflags: 
+Libs: -L/tmp/quickstart_ws/install/lib 
+Requires: 

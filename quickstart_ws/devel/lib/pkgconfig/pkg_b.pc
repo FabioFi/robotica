@@ -1,0 +1,1 @@
+/tmp/quickstart_ws/devel/.private/pkg_b/lib/pkgconfig/pkg_b.pc

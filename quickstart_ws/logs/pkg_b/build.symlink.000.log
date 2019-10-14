@@ -1,0 +1,3 @@
+Symlinking /tmp/quickstart_ws/devel/lib/pkgconfig/pkg_b.pc
+Symlinking /tmp/quickstart_ws/devel/share/pkg_b/cmake/pkg_bConfig.cmake
+Symlinking /tmp/quickstart_ws/devel/share/pkg_b/cmake/pkg_bConfig-version.cmake

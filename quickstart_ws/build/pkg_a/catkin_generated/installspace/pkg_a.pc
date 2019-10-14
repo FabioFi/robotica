@@ -1,0 +1,8 @@
+prefix=/tmp/quickstart_ws/install
+
+Name: pkg_a
+Description: Description of pkg_a
+Version: 0.0.0
+Cflags: 
+Libs: -L/tmp/quickstart_ws/install/lib 
+Requires: 

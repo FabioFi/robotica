@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /tmp/quickstart_ws/build/pkg_c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6a01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6a01.dir/build.make CMakeFiles/cmTC_e6a01.dir/build
+make[1]: Entering directory '/tmp/quickstart_ws/build/pkg_c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6a01.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e6a01.dir/CheckSymbolExists.c.o   -c /tmp/quickstart_ws/build/pkg_c/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e6a01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6a01.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e6a01.dir/CheckSymbolExists.c.o  -o cmTC_e6a01 
+CMakeFiles/cmTC_e6a01.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e6a01.dir/build.make:97: recipe for target 'cmTC_e6a01' failed
+make[1]: *** [cmTC_e6a01] Error 1
+make[1]: Leaving directory '/tmp/quickstart_ws/build/pkg_c/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e6a01/fast' failed
+make: *** [cmTC_e6a01/fast] Error 2
+
+File /tmp/quickstart_ws/build/pkg_c/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /tmp/quickstart_ws/build/pkg_c/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f735d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f735d.dir/build.make CMakeFiles/cmTC_f735d.dir/build
+make[1]: Entering directory '/tmp/quickstart_ws/build/pkg_c/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f735d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f735d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f735d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f735d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f735d.dir/CheckFunctionExists.c.o  -o cmTC_f735d -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f735d.dir/build.make:97: recipe for target 'cmTC_f735d' failed
+make[1]: *** [cmTC_f735d] Error 1
+make[1]: Leaving directory '/tmp/quickstart_ws/build/pkg_c/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f735d/fast' failed
+make: *** [cmTC_f735d/fast] Error 2
+
+
