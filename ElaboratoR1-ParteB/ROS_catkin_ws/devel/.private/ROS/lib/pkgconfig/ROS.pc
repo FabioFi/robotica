@@ -1,0 +1,8 @@
+prefix=/home/fabio/catkin_ws/devel/.private/ROS
+
+Name: ROS
+Description: Description of ROS
+Version: 0.0.0
+Cflags: -I/home/fabio/catkin_ws/devel/.private/ROS/include
+Libs: -L/home/fabio/catkin_ws/devel/.private/ROS/lib 
+Requires: 
