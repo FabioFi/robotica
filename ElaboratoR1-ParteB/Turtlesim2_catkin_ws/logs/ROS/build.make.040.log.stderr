@@ -1,0 +1,10 @@
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:59:21:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Rate loop_rate[m[K’
+  ros::Rate loop_rate[01;31m[K([m[K0.5);
+                     [01;31m[K^[m[K
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:32:12:[m[K [01;36m[Knote: [m[K‘[01m[Kros::Rate loop_rate[m[K’ previously declared here
+  ros::Rate [01;36m[Kloop_rate[m[K(10);
+            [01;36m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

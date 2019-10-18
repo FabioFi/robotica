@@ -1,0 +1,1 @@
+/home/fabio/catkin_ws/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/srv/beginner_tutorials-srv.asd
