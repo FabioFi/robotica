@@ -1,0 +1,30 @@
+Linked: (/home/fabio/catkin_ws/devel/.private/ROS/lib/pkgconfig/ROS.pc, /home/fabio/catkin_ws/devel/lib/pkgconfig/ROS.pc)
+Symlinking /home/fabio/catkin_ws/devel/lib/python2.7/dist-packages/ROS/__init__.py
+Symlinking /home/fabio/catkin_ws/devel/lib/python2.7/dist-packages/ROS/srv/_AddTwoInts.py
+Symlinking /home/fabio/catkin_ws/devel/lib/python2.7/dist-packages/ROS/srv/__init__.py
+Symlinking /home/fabio/catkin_ws/devel/lib/python2.7/dist-packages/ROS/msg/_Num.py
+Symlinking /home/fabio/catkin_ws/devel/lib/python2.7/dist-packages/ROS/msg/__init__.py
+Symlinking /home/fabio/catkin_ws/devel/share/gennodejs/ros/ROS/_index.js
+Symlinking /home/fabio/catkin_ws/devel/share/gennodejs/ros/ROS/srv/AddTwoInts.js
+Symlinking /home/fabio/catkin_ws/devel/share/gennodejs/ros/ROS/srv/_index.js
+Symlinking /home/fabio/catkin_ws/devel/share/gennodejs/ros/ROS/msg/Num.js
+Symlinking /home/fabio/catkin_ws/devel/share/gennodejs/ros/ROS/msg/_index.js
+Symlinking /home/fabio/catkin_ws/devel/share/common-lisp/ros/ROS/srv/_package_AddTwoInts.lisp
+Symlinking /home/fabio/catkin_ws/devel/share/common-lisp/ros/ROS/srv/_package.lisp
+Symlinking /home/fabio/catkin_ws/devel/share/common-lisp/ros/ROS/srv/ROS-srv.asd
+Symlinking /home/fabio/catkin_ws/devel/share/common-lisp/ros/ROS/srv/AddTwoInts.lisp
+Symlinking /home/fabio/catkin_ws/devel/share/common-lisp/ros/ROS/msg/_package_Num.lisp
+Symlinking /home/fabio/catkin_ws/devel/share/common-lisp/ros/ROS/msg/_package.lisp
+Symlinking /home/fabio/catkin_ws/devel/share/common-lisp/ros/ROS/msg/ROS-msg.asd
+Symlinking /home/fabio/catkin_ws/devel/share/common-lisp/ros/ROS/msg/Num.lisp
+Linked: (/home/fabio/catkin_ws/devel/.private/ROS/share/ROS/cmake/ROSConfig-version.cmake, /home/fabio/catkin_ws/devel/share/ROS/cmake/ROSConfig-version.cmake)
+Symlinking /home/fabio/catkin_ws/devel/share/ROS/cmake/ROS-msg-paths.cmake
+Linked: (/home/fabio/catkin_ws/devel/.private/ROS/share/ROS/cmake/ROSConfig.cmake, /home/fabio/catkin_ws/devel/share/ROS/cmake/ROSConfig.cmake)
+Symlinking /home/fabio/catkin_ws/devel/share/ROS/cmake/ROS-msg-extras.cmake
+Symlinking /home/fabio/catkin_ws/devel/share/roseus/ros/ROS/manifest.l
+Symlinking /home/fabio/catkin_ws/devel/share/roseus/ros/ROS/srv/AddTwoInts.l
+Symlinking /home/fabio/catkin_ws/devel/share/roseus/ros/ROS/msg/Num.l
+Symlinking /home/fabio/catkin_ws/devel/include/ROS/AddTwoIntsRequest.h
+Symlinking /home/fabio/catkin_ws/devel/include/ROS/AddTwoInts.h
+Symlinking /home/fabio/catkin_ws/devel/include/ROS/Num.h
+Symlinking /home/fabio/catkin_ws/devel/include/ROS/AddTwoIntsResponse.h

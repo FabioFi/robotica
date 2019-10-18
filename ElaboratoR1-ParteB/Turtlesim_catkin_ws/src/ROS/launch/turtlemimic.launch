@@ -1,0 +1,14 @@
+<launch>
+	<group ns="talker">
+		<node pkg="talker" name="sim" type="talker"/>
+	</group>
+
+	<group ns="listener">
+		<node pkg="listener" name="sim" type="listener"/>
+	</group>
+
+	<node pkg="ROS" name="mimic" type="mimic">
+		<remap from="input" to="src/talker"/>
+		<remap from="output" to="src/listener"/>
+	</node>
+</launch>
