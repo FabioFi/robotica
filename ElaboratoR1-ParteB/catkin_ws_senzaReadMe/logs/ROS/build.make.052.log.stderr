@@ -1,0 +1,38 @@
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:6:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+  [01;31m[Kstring[m[K robot_name = string(argv[1]);
+  [01;31m[K^~~~~~[m[K
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:6:2:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/7/string:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:1[m[K:
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+   typedef basic_string<char>    [01;36m[Kstring[m[K;
+                                 [01;36m[K^~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stringfwd.h:74:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::string[m[K’
+In file included from [01m[K/usr/include/boost/lexical_cast/detail/converter_lexical.hpp:52:0[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast/try_lexical_convert.hpp:42[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:32[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:1[m[K:
+[01m[K/usr/include/boost/container/container_fwd.hpp:195:1:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::container::string[m[K’
+ [01;36m[Kstring[m[K;
+ [01;36m[K^~~~~~[m[K
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:11:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot_name[m[K’ was not declared in this scope
+  ros::Publisher pub = node.advertise<geometry_msgs::Twist>([01;31m[Krobot_name[m[K + "/cmd_vel", 10);
+                                                            [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:11:60:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kbasename[m[K’
+  ros::Publisher pub = node.advertise<geometry_msgs::Twist>([01;36m[Krobot_name[m[K + "/cmd_vel", 10);
+                                                            [01;36m[K^~~~~~~~~~[m[K
+                                                            [32m[Kbasename[m[K
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:13:65:[m[K [01;31m[Kerror: [m[K‘[01m[KposeCallback[m[K’ was not declared in this scope
+  ros::Subscriber sub = node.subscribe(robot_name + "/pose", 10, [01;31m[KposeCallback[m[K);
+                                                                 [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

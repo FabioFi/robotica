@@ -1,0 +1,14 @@
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:25:30:[m[K [01;31m[Kerror: [m[K‘[01m[Knh[m[K’ was not declared in this scope
+   ros::Subscriber pose_sub = [01;31m[Knh[m[K.subscribe("turtle1/pose", 1, poseCallback);
+                              [01;31m[K^~[m[K
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:25:30:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kn[m[K’
+   ros::Subscriber pose_sub = [01;36m[Knh[m[K.subscribe("turtle1/pose", 1, poseCallback);
+                              [01;36m[K^~[m[K
+                              [32m[Kn[m[K
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:25:62:[m[K [01;31m[Kerror: [m[K‘[01m[KposeCallback[m[K’ was not declared in this scope
+   ros::Subscriber pose_sub = nh.subscribe("turtle1/pose", 1, [01;31m[KposeCallback[m[K);
+                                                              [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

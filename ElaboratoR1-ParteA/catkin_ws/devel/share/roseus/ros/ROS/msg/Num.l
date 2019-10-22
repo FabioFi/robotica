@@ -1,0 +1,1 @@
+/home/fabio/catkin_ws/devel/.private/ROS/share/roseus/ros/ROS/msg/Num.l

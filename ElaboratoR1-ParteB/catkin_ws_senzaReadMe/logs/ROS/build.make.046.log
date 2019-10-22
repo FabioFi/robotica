@@ -1,0 +1,53 @@
+[35m[1mScanning dependencies of target talker[0m
+[  5%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:[m[K In function ‘[01m[Kvoid gridClean()[m[K’:
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:223:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdegree2radians[m[K’ was not declared in this scope
+  rotate([01;31m[Kdegree2radians[m[K(10), degrees2radians(90), false);
+         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:223:9:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kdegrees2radians[m[K’
+  rotate([01;36m[Kdegree2radians[m[K(10), degrees2radians(90), false);
+         [01;36m[K^~~~~~~~~~~~~~[m[K
+         [32m[Kdegrees2radians[m[K
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:[m[K In function ‘[01m[Kvoid spiralClean()[m[K’:
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:274:25:[m[K [01;31m[Kerror: [m[Kunable to find string literal operator ‘[01m[Koperator""wk[m[K’ with ‘[01m[Kconst char [3][m[K’, ‘[01m[Klong unsigned int[m[K’ arguments
+   cout<<rk<<" , "<<vk <<[01;31m[K", "wk[m[K<<endl;
+                         [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/c++/7/bits/char_traits.h:39:0[m[K,
+                 from [01m[K/usr/include/c++/7/string:40[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:38[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:1[m[K:
+/usr/include/c++/7/bits/stl_algobase.h: In instantiation of ‘[01m[K_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = true; _II = int; _OI = bool][m[K’:
+[01m[K/usr/include/c++/7/bits/stl_algobase.h:422:45:[m[K   required from ‘[01m[K_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = true; _II = int; _OI = bool][m[K’
+[01m[K/usr/include/c++/7/bits/stl_algobase.h:487:39:[m[K   required from ‘[01m[K_OI std::move(_II, _II, _OI) [with _II = int; _OI = bool][m[K’
+[01m[K/home/fabio/catkin_ws/src/ROS/src/talker.cpp:221:16:[m[K   required from here
+[01m[K/usr/include/c++/7/bits/stl_algobase.h:377:57:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kvalue_type[m[K’ in ‘[01m[Kstruct std::iterator_traits<int>[m[K’
+       typedef typename iterator_traits<_II>::value_type [01;31m[K_ValueTypeI[m[K;
+                                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_algobase.h:378:57:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kvalue_type[m[K’ in ‘[01m[Kstruct std::iterator_traits<bool>[m[K’
+       typedef typename iterator_traits<_OI>::value_type [01;31m[K_ValueTypeO[m[K;
+                                                         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_algobase.h:379:64:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kiterator_category[m[K’ in ‘[01m[Kstruct std::iterator_traits<int>[m[K’
+       typedef typename iterator_traits<_II>::iterator_category [01;31m[K_Category[m[K;
+                                                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_algobase.h:383:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kvalue_type[m[K’ in ‘[01m[Kstruct std::iterator_traits<int>[m[K’
+       const bool __simple = [01;31m[K(__is_trivial(_ValueTypeI)[m[K
+                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;31m[K                      && __is_pointer<_II>::__value[m[K
+                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;31m[K                      && __is_pointer<_OI>::__value[m[K
+                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;31m[K        && __are_same<_ValueTypeI, _ValueTypeO>::__value)[m[K;
+         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/7/bits/stl_algobase.h:386:44:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Kiterator_category[m[K’ in ‘[01m[Kstruct std::iterator_traits<int>[m[K’
+       return [01;31m[Kstd::__copy_move<_IsMove, __simple,[m[K
+              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+ [01;31m[K                       _Category>::__copy_m(__first, __last, __result)[m[K;
+                        [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+CMakeFiles/talker.dir/build.make:62: recipe for target 'CMakeFiles/talker.dir/src/talker.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/talker.dir/all' failed
+Makefile:140: recipe for target 'all' failed
+make[2]: *** [CMakeFiles/talker.dir/src/talker.cpp.o] Error 1
+make[1]: *** [CMakeFiles/talker.dir/all] Error 2
+make: *** [all] Error 2

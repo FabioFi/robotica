@@ -1,0 +1,28 @@
+[35m[1mScanning dependencies of target talker[0m
+[  5%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[ 11%] [32m[1mLinking CXX executable /home/fabio/catkin_ws/devel/.private/ROS/lib/ROS/talker[0m
+[ 11%] Built target talker
+[ 23%] Built target listener
+[ 23%] Built target turtlesim_generate_messages_cpp
+[ 23%] Built target _ROS_generate_messages_check_deps_Num
+[ 23%] Built target _ROS_generate_messages_check_deps_AddTwoInts
+[ 23%] Built target std_msgs_generate_messages_cpp
+[ 23%] Built target geometry_msgs_generate_messages_cpp
+[ 23%] Built target turtlesim_generate_messages_py
+[ 23%] Built target std_msgs_generate_messages_py
+[ 23%] Built target geometry_msgs_generate_messages_py
+[ 23%] Built target turtlesim_generate_messages_lisp
+[ 23%] Built target std_msgs_generate_messages_lisp
+[ 23%] Built target geometry_msgs_generate_messages_lisp
+[ 23%] Built target turtlesim_generate_messages_eus
+[ 23%] Built target std_msgs_generate_messages_eus
+[ 23%] Built target geometry_msgs_generate_messages_eus
+[ 23%] Built target turtlesim_generate_messages_nodejs
+[ 23%] Built target geometry_msgs_generate_messages_nodejs
+[ 23%] Built target std_msgs_generate_messages_nodejs
+[ 35%] Built target ROS_generate_messages_cpp
+[ 58%] Built target ROS_generate_messages_py
+[ 70%] Built target ROS_generate_messages_lisp
+[ 88%] Built target ROS_generate_messages_eus
+[100%] Built target ROS_generate_messages_nodejs
+[100%] Built target ROS_generate_messages
