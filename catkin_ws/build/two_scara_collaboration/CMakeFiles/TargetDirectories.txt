@@ -1,0 +1,9 @@
+/home/fabio/catkin_ws/build/two_scara_collaboration/CMakeFiles/rebuild_cache.dir
+/home/fabio/catkin_ws/build/two_scara_collaboration/CMakeFiles/scara_left_motion_planner.dir
+/home/fabio/catkin_ws/build/two_scara_collaboration/CMakeFiles/cylinder_blocks_spawner.dir
+/home/fabio/catkin_ws/build/two_scara_collaboration/CMakeFiles/scara_gripper_action_server.dir
+/home/fabio/catkin_ws/build/two_scara_collaboration/CMakeFiles/scara_joint_controller.dir
+/home/fabio/catkin_ws/build/two_scara_collaboration/CMakeFiles/scara_upper_boundary_maintainer.dir
+/home/fabio/catkin_ws/build/two_scara_collaboration/CMakeFiles/edit_cache.dir
+/home/fabio/catkin_ws/build/two_scara_collaboration/CMakeFiles/cylinder_blocks_poses_publisher.dir
+/home/fabio/catkin_ws/build/two_scara_collaboration/CMakeFiles/cylinder_active_pool.dir

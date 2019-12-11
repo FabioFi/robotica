@@ -1,0 +1,8 @@
+prefix=/home/fabio/catkin_ws/install
+
+Name: franka_description
+Description: Description of franka_description
+Version: 0.7.0
+Cflags: 
+Libs: -L/home/fabio/catkin_ws/install/lib 
+Requires: xacro

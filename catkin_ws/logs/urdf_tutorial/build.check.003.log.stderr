@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/fabio/catkin_ws/src/urdf_tutorial/CMakeLists.txt:1:
+  Parse error.  Expected "(", got unquoted argument with text
+  "LC_NUMERIC="en_US.UTF-8"".
+
+
+make: *** [cmake_check_build_system] Error 1

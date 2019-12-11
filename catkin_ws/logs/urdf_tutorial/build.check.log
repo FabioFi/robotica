@@ -1,0 +1,10 @@
+[31m[1mCMake Error[0m at /home/fabio/catkin_ws/src/urdf_tutorial/CMakeLists.txt:1:
+  Parse error.  Expected "(", got unquoted argument with text
+  "LC_NUMERIC="en_US.UTF-8"".
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/fabio/catkin_ws/build/urdf_tutorial/CMakeFiles/CMakeOutput.log".
+See also "/home/fabio/catkin_ws/build/urdf_tutorial/CMakeFiles/CMakeError.log".
+Makefile:432: recipe for target 'cmake_check_build_system' failed
+make: *** [cmake_check_build_system] Error 1

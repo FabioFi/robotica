@@ -1,0 +1,3 @@
+/home/fabio/catkin_ws/devel/lib/python2.7/dist-packages/beginner_tutorials/__init__.py 84
+/home/fabio/catkin_ws/devel/./cmake.lock 523
+/home/fabio/catkin_ws/devel/share/beginner_tutorials/cmake/beginner_tutorials-msg-paths.cmake 84

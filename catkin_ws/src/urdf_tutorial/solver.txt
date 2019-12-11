@@ -1,0 +1,8 @@
+https://answers.ros.org/question/314233/moveit-tutorial-all-links-at-the-same-place/
+sul terminale fare questo comando
+export LC_NUMERIC="en_US.UTF-8"
+
+roslaunch urdf_tutorial display.launch model:='$(find urdf_tutorial)/urdf/01-myfirst.urdf'
+oppure
+~/catkin_ws/src/urdf_tutorial$ roslaunch urdf_tutorial display.launch model:=urdf/my_robot.urdf
+

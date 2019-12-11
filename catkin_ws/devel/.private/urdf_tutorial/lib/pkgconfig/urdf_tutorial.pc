@@ -1,0 +1,8 @@
+prefix=/home/fabio/catkin_ws/devel/.private/urdf_tutorial
+
+Name: urdf_tutorial
+Description: Description of urdf_tutorial
+Version: 0.4.0
+Cflags: 
+Libs: -L/home/fabio/catkin_ws/devel/.private/urdf_tutorial/lib 
+Requires: 

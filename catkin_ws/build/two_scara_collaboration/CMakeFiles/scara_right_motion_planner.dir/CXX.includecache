@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/fabio/catkin_ws/src/two_scara_collaboration/src/scara_right_motion_planner.cpp
+ros/ros.h
+-
+math.h
+-
+std_msgs/Int8MultiArray.h
+-
+std_msgs/Float64.h
+-
+two_scara_collaboration/cylinder_blocks_poses.h
+-
+two_scara_collaboration/pool_claim_msg.h
+-
+std_msgs/Int8MultiArray.h
+-
+two_scara_collaboration/scara_upper_boundary.h
+-
+two_scara_collaboration/upper_boundary_change.h
+-
+actionlib/client/simple_action_client.h
+-
+two_scara_collaboration/scara_gripperAction.h
+-
+

@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<robot name="my_robot">
+
+  <link name="world"/>
+
+  <joint name="joint_fix" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.4" radius="0.25"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.4" radius="0.25"/>
+      </geometry>
+    </visual>
+
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1"/>
+      <inertia
+        ixx="1.0" ixy="0.0" ixz="0.0"
+        iyy="1.0" iyz="0.0"
+        izz="1.0"/>
+    </inertial>
+  </link>
+
+  <!-- the first arm of the scara -->
+  <joint name="rotation1" type="revolute">
+    <parent link="base_link"/>
+    <child link="arm1"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="1000" velocity="1000" lower="-2.6" upper="2.6"/>
+  </joint>
+
+  <link name="arm1">
+    <collision>
+      <origin xyz="0 -0.15 0.1" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.3 0.2"/>
+        <!--cylinder length="0.3" radius="0.2"/-->
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 -0.15 0.1" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.3 0.2"/>
+        <!--cylinder length="0.3" radius="0.2"/-->
+      </geometry>
+    </visual>
+
+    <inertial>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <mass value="1"/>
+      <inertia
+        ixx="0.001" ixy="0.0" ixz="0.0"
+        iyy="0.001" iyz="0.0"
+        izz="0.001"/>
+    </inertial>
+  </link>
+
+  <!-- the second arm and its rotation joint -->
+  <joint name="rotation2" type="revolute">
+    <parent link="arm1"/>
+    <child link="arm2"/>
+    <origin xyz="0 -0.3 0.0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="1000" velocity="1000" lower="-3.00" upper="3.00"/>
+  </joint>
+
+  <link name="arm2">
+    <collision>
+      <origin xyz="0 -0.15 0.1" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.15 0.3 0.15"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 -0.15 0.1" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.15 0.3 0.15"/>
+      </geometry>
+    </visual>
+
+    <inertial>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <mass value="1"/>
+      <inertia
+        ixx="0.001" ixy="0.0" ixz="0.0"
+        iyy="0.001" iyz="0.0"
+        izz="0.001"/>
+    </inertial>
+  </link>
+
+  <!-- gripper base link, can move vertically -->
+  <joint name="gripper_joint" type="prismatic">
+    <parent link="arm2"/>
+    <child link="gripper_link"/>
+    <origin xyz="0 -0.3 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="100" velocity="100" lower="0" upper="0.45"/>
+  </joint>
+
+  <link name="gripper_link">
+    <collision>
+      <origin xyz="0 -0.05 -0.08" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.05"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 -0.05 -0.08" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.5" radius="0.05"/>
+      </geometry>
+    </visual>
+
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <!-- make the gripper lightweight -->
+      <mass value="0.00001"/>
+      <inertia
+        ixx="0.00001" ixy="0.0" ixz="0.0"
+        iyy="0.00001" iyz="0.0"
+        izz="0.00001"/>
+    </inertial>
+  </link>
+
+  <!-- the last arm and its rotation joint -->
+  <joint name="rotation3" type="revolute">
+    <parent link="arm2"/>
+    <child link="arm3"/>
+    <origin xyz="0 -0.3 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="1000" velocity="1000" lower="-3.00" upper="3.00"/>
+  </joint>
+
+  <link name="arm3">
+    <collision>
+      <origin xyz="0 -0.05 -0.08" rpy="0 0 0"/>
+      <geometry>
+        <box size="0 0 0"/>
+      </geometry>
+    </collision>
+
+    <visual>
+      <origin xyz="0 -0.05 -0.08" rpy="0 0 0"/>
+      <geometry>
+        <box size="0 0 0"/>
+      </geometry>
+    </visual>
+
+    <inertial>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <mass value="1"/>
+      <inertia
+        ixx="0.001" ixy="0.0" ixz="0.0"
+        iyy="0.001" iyz="0.0"
+        izz="0.001"/>
+    </inertial>
+  </link>
+
+</robot>

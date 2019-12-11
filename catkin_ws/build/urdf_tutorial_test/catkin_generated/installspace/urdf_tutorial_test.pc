@@ -1,0 +1,8 @@
+prefix=/home/fabio/catkin_ws/install
+
+Name: urdf_tutorial_test
+Description: Description of urdf_tutorial_test
+Version: 0.4.0
+Cflags: 
+Libs: -L/home/fabio/catkin_ws/install/lib 
+Requires: 

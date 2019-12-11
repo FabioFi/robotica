@@ -1,0 +1,1 @@
+/home/fabio/catkin_ws/devel/.private/urdf_tutorial_test/share/urdf_tutorial_test/cmake/urdf_tutorial_testConfig.cmake

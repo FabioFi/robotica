@@ -1,0 +1,6 @@
+testbot_description
+/home/fabio/catkin_ws/devel/.private/testbot_description/cmake.lock /home/fabio/catkin_ws/devel/./cmake.lock
+/home/fabio/catkin_ws/devel/.private/testbot_description/lib/pkgconfig/testbot_description.pc /home/fabio/catkin_ws/devel/lib/pkgconfig/testbot_description.pc
+/home/fabio/catkin_ws/devel/.private/testbot_description/lib/testbot_description/parser /home/fabio/catkin_ws/devel/lib/testbot_description/parser
+/home/fabio/catkin_ws/devel/.private/testbot_description/share/testbot_description/cmake/testbot_descriptionConfig.cmake /home/fabio/catkin_ws/devel/share/testbot_description/cmake/testbot_descriptionConfig.cmake
+/home/fabio/catkin_ws/devel/.private/testbot_description/share/testbot_description/cmake/testbot_descriptionConfig-version.cmake /home/fabio/catkin_ws/devel/share/testbot_description/cmake/testbot_descriptionConfig-version.cmake

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target scara_left_motion_planner[0m
+[  7%] [32mBuilding CXX object CMakeFiles/scara_left_motion_planner.dir/src/scara_left_motion_planner.cpp.o[0m
+[01m[K/home/fabio/catkin_ws/src/two_scara_collaboration/src/scara_left_motion_planner.cpp:38:10:[m[K [01;31m[Kfatal error: [m[Ktwo_scara_collaboration/pool_claim_msg.h: No such file or directory
+ #include [01;31m[K<two_scara_collaboration/pool_claim_msg.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+CMakeFiles/scara_left_motion_planner.dir/build.make:62: recipe for target 'CMakeFiles/scara_left_motion_planner.dir/src/scara_left_motion_planner.cpp.o' failed
+make[2]: *** [CMakeFiles/scara_left_motion_planner.dir/src/scara_left_motion_planner.cpp.o] Error 1
+make[1]: *** [CMakeFiles/scara_left_motion_planner.dir/all] Error 2
+make: *** [all] Error 2
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/scara_left_motion_planner.dir/all' failed
+Makefile:83: recipe for target 'all' failed
