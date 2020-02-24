@@ -1,0 +1,4 @@
+pcl (ros): 3d
+opencv: 2d - solvePNP per convertire in 3d (camera matrix e camera distortion come input)
+
+https://visp.inria.fr/
