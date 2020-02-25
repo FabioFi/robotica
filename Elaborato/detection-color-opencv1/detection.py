@@ -41,6 +41,9 @@ while(1):
         img = cv2.flip(img,1)
         cv2.imshow("Red",res)
 
+        #ret,thresh=cv2.threshold(img,a,b,cv2.THRESH_BINARY_INV)
+        #print cv2.countNonZero(tresh)
+
         if cv2.waitKey(10) & 0xFF == 27:
                 cap.release()
                 cv2.destroyAllWindows()
