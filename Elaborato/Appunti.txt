@@ -2,3 +2,23 @@ pcl (ros): 3d
 opencv: 2d - solvePNP per convertire in 3d (camera matrix e camera distortion come input)
 
 https://visp.inria.fr/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Per quanto riguarda l'elaborato descritto a pagina 7 dovresti studiare le basi di visual servoing (asservimento visivo) non visti a lezione e  successivamente  implementare un algoritmo di visione computazione che riesca a fornire una indicazione (numero di pixel visibili nell'immagine) della superficie di tumore (area scura sotto al tessuto deformabile giallo) visibile nella scena simulata che puoi osservare nel video allegato. Possiamo inizialmente semplificare la scena (colori semplificati).
+
+Successivamente si tratta di utilizzare tale algoritmo per valutare i movimenti di un robot che ha come obiettivo quello di rendere visibile l'intera superficie del tumore. Esiste del codice di controllo del robot da utilizzare, dovrai solo integrare il tuo algoritmo (la cosa dovrebbe essere molto semplice se lo implementi in python usando librerie standard come opencv).
+
+

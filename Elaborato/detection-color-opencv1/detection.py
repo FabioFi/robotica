@@ -5,7 +5,7 @@ import numpy as np
 
 #Capturing Video through webcam.
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture('Fat_OnlyScene.mp4')
 
 while(1):
         _, img = cap.read()
