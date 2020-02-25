@@ -37,6 +37,10 @@ while(1):
                         x,y,w,h = cv2.boundingRect(contour)
                         img = cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),3)
 
+                        print "The area involved is between x: ", x, " and y: ", y, " and also w: ", w, " and h: ", h
+                        print "The area is: ", area
+                        #print(cv2.countNonZero(img))
+
         cv2.imshow("Color Tracking",img)
         img = cv2.flip(img,1)
         cv2.imshow("Red",res)
