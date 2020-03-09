@@ -1,0 +1,13 @@
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/edit_cache.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/rebuild_cache.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-plotter-continuous-gain-adaptive.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-wireframe-robot-viper.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-wireframe-camera.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-plotter-gain-adaptive.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-wireframe-robot-afma6.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-display.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-ogre-tracking.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-image-tracking.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-ogre.dir
+/home/fabio/Documents/robotica/Elaborato/ibvs-visp/CMakeFiles/tutorial-ibvs-4pts-plotter.dir
