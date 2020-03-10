@@ -50,13 +50,13 @@ int main()
   try {
     /* Quindi nella funzione main (), definiamo la posizione desiderata e iniziale della telecamera come due matrici omogenee;
     cdMo si riferisce a $ {^ c} ^ * {\ bf M} _o $ e cMo a $ {^ c} {\ bf M} _o $. */
-    // FF: IMPOSTARE UNA POSIZIONE INIZIALE SIMILE A QUELLA DEL VIDEO
+    // -------------- FF: IMPOSTARE UNA POSIZIONE INIZIALE SIMILE A QUELLA DEL VIDEO --------------
     vpHomogeneousMatrix cdMo(0, 0, 0.75, 0, 0, 0);
     vpHomogeneousMatrix cMo(0.15, -0.1, 1., vpMath::rad(10), vpMath::rad(-10), vpMath::rad(50));
 
     // Quindi definiamo quattro punti 3D che rappresentano gli angoli di un quadrato di 20 cm per 20 cm.
-    // FF: IMPORTARE DA OPENCV I DETTAGLI DEI PUNTI (PYTHON)
-    // https://visp-doc.inria.fr/doxygen/visp-daily/tutorial-bridge-opencv.html
+    // -------------- FF: IMPORTARE DA OPENCV I DETTAGLI DEI PUNTI (PYTHON) --------------
+    // -------------- https://visp-doc.inria.fr/doxygen/visp-daily/tutorial-bridge-opencv.html --------------
     std::vector<vpPoint> point;
     point.push_back(vpPoint(-0.1, -0.1, 0));
     point.push_back(vpPoint(0.1, -0.1, 0));
