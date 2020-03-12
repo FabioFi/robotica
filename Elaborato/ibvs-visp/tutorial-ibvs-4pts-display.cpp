@@ -55,7 +55,7 @@ int main()
     vpHomogeneousMatrix cMo(0.15, -0.1, 1., vpMath::rad(10), vpMath::rad(-10), vpMath::rad(50));
 
     // Quindi definiamo quattro punti 3D che rappresentano gli angoli di un quadrato di 20 cm per 20 cm.
-    // -------------- FF: IMPORTARE DA OPENCV I DETTAGLI DEI PUNTI (PYTHON) --------------
+    // -------------- FF: IMPORTARE DA OPENCV I DETTAGLI DEI PUNTI (PYTHON)  magari leggendoli da un server OPC-UA --------------
     // -------------- https://visp-doc.inria.fr/doxygen/visp-daily/tutorial-bridge-opencv.html --------------
     std::vector<vpPoint> point;
     point.push_back(vpPoint(-0.1, -0.1, 0));
